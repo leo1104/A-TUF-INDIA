@@ -1,0 +1,107 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0rem 2rem;
+    box-shadow: 2px 2px 8px white;
+
+}
+.logo img{
+    width: 30%;
+}
+
+nav ul{
+    display: flex;
+position: relative;
+right: 5rem;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 1rem;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.headerbtn button{
+    color:white;
+border: 1px solid white;
+background-color: black;
+padding: .5rem 1rem;
+margin-right:2rem ;
+border-radius: 1rem;
+}
+
+.headerbtn button:hover{
+    background-color: white;
+    color: black;
+cursor: pointer;
+}
+
+/* AIM */
+
+.aim{
+    background: url(images/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:6rem;
+}
+.aimpara {
+    
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin: 0 12rem;
+  }
+
+  .aimpara:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+.aimpara h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 2rem;
+    padding-top: 1rem;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.aimpara p{
+    padding: 2rem;
+    padding-top: 1rem;
+}
