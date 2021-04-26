@@ -1,0 +1,11 @@
+Software requirements:VScode,
+
+Lanaguage:markup language,Python,SQL
+
+Front-end :HTML,CSS,JS
+
+Backend:Django
+
+Database:PostgresQL
+
+Hosting services:MS AZURE
