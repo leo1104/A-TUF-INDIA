@@ -105,3 +105,29 @@ cursor: pointer;
     padding: 2rem;
     padding-top: 1rem;
 }
+/* card */
+.category h2{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.cards{
+    display: flex;
+
+}
+.card{
+    width: 33.33%;
+    margin: 2rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.cardContent h2{
+    color: white;
+    text-align: center;
+margin: 1rem;
+}
